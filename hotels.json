@@ -1,0 +1,130 @@
+[
+  {
+    "id": "h1",
+    "name": "Nile View Palace",
+    "city": "Cairo",
+    "country": "Egypt",
+    "hotelType": "Luxury",
+    "description": "Sweeping Nile views, a rooftop pool, and 24-hour room service in the heart of the city.",
+    "pricePerNight": 120,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80"
+    ],
+    "amenities": ["Wi‑Fi", "Pool", "Breakfast", "Parking"],
+    "rooms": [
+      { "type": "Standard Room", "price": 120, "maxGuests": 2 },
+      { "type": "Family Suite", "price": 210, "maxGuests": 4 },
+      { "type": "Penthouse", "price": 380, "maxGuests": 4 }
+    ]
+  },
+  {
+    "id": "h2",
+    "name": "Red Sea Pearl Resort",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "hotelType": "Resort",
+    "description": "Beachfront resort with coral reefs nearby, diving, and spa experiences.",
+    "pricePerNight": 95,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80"
+    ],
+    "amenities": ["Wi‑Fi", "Private Beach", "Spa", "Restaurant"],
+    "rooms": [
+      { "type": "Sea View Room", "price": 95, "maxGuests": 2 },
+      { "type": "Villa", "price": 280, "maxGuests": 6 }
+    ]
+  },
+  {
+    "id": "h3",
+    "name": "Downtown Business Hotel",
+    "city": "Dubai",
+    "country": "UAE",
+    "hotelType": "Business",
+    "description": "Steps from the financial district — ideal for work trips and shopping.",
+    "pricePerNight": 180,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80"
+    ],
+    "amenities": ["Wi‑Fi", "Business Lounge", "Gym", "Restaurant"],
+    "rooms": [
+      { "type": "Executive Room", "price": 180, "maxGuests": 2 },
+      { "type": "Suite", "price": 320, "maxGuests": 3 }
+    ]
+  },
+  {
+    "id": "h4",
+    "name": "Old Town Boutique",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "hotelType": "Boutique",
+    "description": "Historic quarter boutique hotel with authentic Turkish breakfast and guided walks.",
+    "pricePerNight": 75,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80"
+    ],
+    "amenities": ["Wi‑Fi", "Breakfast", "Tours", "Concierge"],
+    "rooms": [
+      { "type": "Classic Room", "price": 75, "maxGuests": 2 },
+      { "type": "Terrace Suite", "price": 140, "maxGuests": 2 }
+    ]
+  },
+  {
+    "id": "h5",
+    "name": "Atlas Mountain Lodge",
+    "city": "Marrakech",
+    "country": "Morocco",
+    "hotelType": "Resort",
+    "description": "Serene gardens, traditional tea lounges, and mountain air at your doorstep.",
+    "pricePerNight": 88,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80"
+    ],
+    "amenities": ["Wi‑Fi", "Garden", "Restaurant", "Parking"],
+    "rooms": [
+      { "type": "Garden Room", "price": 88, "maxGuests": 2 },
+      { "type": "Traditional Riad", "price": 160, "maxGuests": 3 }
+    ]
+  },
+  {
+    "id": "h6",
+    "name": "Skyline Tower Suites",
+    "city": "Cairo",
+    "country": "Egypt",
+    "hotelType": "Luxury",
+    "description": "High-floor suites with panoramic city views and modern kitchens.",
+    "pricePerNight": 150,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80"
+    ],
+    "amenities": ["Wi‑Fi", "Kitchenette", "Gym", "Parking"],
+    "rooms": [
+      { "type": "Studio", "price": 150, "maxGuests": 2 },
+      { "type": "Panorama Suite", "price": 260, "maxGuests": 4 }
+    ]
+  }
+]
