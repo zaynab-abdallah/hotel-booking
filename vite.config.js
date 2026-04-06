@@ -6,17 +6,10 @@ import react from '@vitejs/plugin-react'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-// GitHub Pages: https://<user>.github.io/<repo>/
-// CI sets GITHUB_REPOSITORY; local build falls back to repo name below.
-function productionBase() {
-  const repo = process.env.GITHUB_REPOSITORY?.split('/')[1]
-  const name = repo ?? 'hotel-booking'
-  return `/${name}/`
-}
-
+// GitHub Pages serves project sites at /<repo-name>/ — assets must use that base.
 // https://vite.dev/config/shared-options.html#base
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? productionBase() : '/',
+  base: command === 'build' ? '/hotel-booking/' : '/',
   plugins: [
     react(),
     {
