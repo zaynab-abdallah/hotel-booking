@@ -10,7 +10,7 @@ const HERO_BG =
 
 const cityImages = {
   Cairo:
-    'https://images.unsplash.com/photo-1572252009286-268b7aa4d14e?w=800&q=80',
+    'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80',
   'Sharm El Sheikh':
     'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80',
   Dubai:
