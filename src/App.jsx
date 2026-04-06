@@ -12,9 +12,12 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import MyBookings from './pages/MyBookings'
 
+const routerBasename =
+  import.meta.env.BASE_URL.replace(/\/$/, '') || undefined
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <AuthProvider>
         <BookingProvider>
           <FavoritesProvider>

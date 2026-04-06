@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const hotelsUrl = '/hotels.json'
+const hotelsUrl = `${import.meta.env.BASE_URL}hotels.json`
 
 export async function fetchHotels() {
   const { data } = await axios.get(hotelsUrl)
